@@ -9,7 +9,7 @@ __PYTHON__= "3.6.4"
 __EMAIL__ = "vnievess@gmail.com"
 
 from distutils.core import setup
-from setuptools.command.test import test as TestCommand
+import distutils_pytest
 
 def readme():
 	with open("README.md") as file:
@@ -24,6 +24,6 @@ setup(name="Ejemplo de paquete python",
 	url='https://github.com/VictorNS69',
 	license=__LICENSE__,
 	classifiers=['Programming Language :: Python :: 3.5'],
-	packages=['src', 'tests'],
-	test_suite='nose.collector',
-	tests_require=['nose'],)
+	packages=['src', 'tests'],)
+
+
