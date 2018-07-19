@@ -1,5 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
+
 
 __AUTHOR__ = "Victor Nieves Sanchez"
 __COPYRIGHT__ = "Copyright 2018, Victor Nieves Sanchez"

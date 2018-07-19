@@ -21,9 +21,9 @@ setup(name="Ejemplo de paquete python",
 	long_description=readme(),
 	author=__AUTHOR__,
 	author_email=__EMAIL__,
-	url='https://github.com/VictorNS69',
+	url='https://github.com/VictorNS69/Estructura-paquete-python',
 	license=__LICENSE__,
-	classifiers=['Programming Language :: Python :: 3.5'],
+	classifiers=['Programming Language :: Python :: 3.6'],
 	packages=['src', 'tests'],)
 
 
