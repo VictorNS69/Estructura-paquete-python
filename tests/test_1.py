@@ -46,4 +46,12 @@ class Test(object):
 	def test_ok_3(self, capsys):
 		assert d.Division(0, 2).result() == 0.0
 
+	def test_void(self, capsys):
+		with pytest.raises(TypeError):
+			d.Division("",2)
+
+	def test_none(self, capsys):
+		with pytest.raises(TypeError):
+			d.Division(None, 2)
+
 
